@@ -24,7 +24,7 @@ bash <(curl https://raw.githubusercontent.com/ipmartnetwork/fix-abuse/main/fix.s
 
 
 ```
-bash <(curl https://raw.githubusercontent.com/ipmartnetwork/fix-abuse/main/fix-v2.sh)
+bash <(curl https://raw.githubusercontent.com/V2RVPNShop/fix-abuse/main/fix-v2.sh)
 
 ```
 
