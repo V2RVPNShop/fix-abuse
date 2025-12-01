@@ -116,7 +116,7 @@ block_ip_ranges() {
             ipset add AS_Blocker "$range"
             log "INFO" "Blocked range: $range"
         fi
-    done < /tmp/Ips.txt
+    done < /tmp/ipv4.txt
 
     # Add iptables rule
     if ! iptables -C OUTPUT -m set --match-set AS_Blocker dst -j DROP >/dev/null 2>&1; then
